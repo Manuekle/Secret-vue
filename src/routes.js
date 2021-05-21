@@ -1,9 +1,11 @@
-import FormData from './pages/FormData.vue'
-import PrintData from './pages/PrintData.vue'
-import Details from './pages/Details.vue'
+import Index from './pages/Index.vue'
+import About from './pages/About.vue'
+import Products from './pages/Products.vue'
+import Store from './pages/Store.vue'
 
 export const routes = [
-    {path:'/', component:FormData},
-    {path:'/print', component:PrintData},
-    {path:'/details/:index', component:Details}
+    {path:'/', component:Index},
+    {path:'/about', component:About},
+    {path:'/products', component:Products},
+    {path:'/store', component:Store}
 ]

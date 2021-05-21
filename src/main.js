@@ -1,7 +1,7 @@
 import { createApp } from 'vue'
 import {createRouter, createWebHistory} from 'vue-router'
 import {routes} from './routes'
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 
 import {store} from './store/index'
 
