@@ -1,5 +1,12 @@
 <template>
   <div>
+    <a
+      href="https://wa.me/573206437419?text=Me%20gustaría%20saber%20el%20precio%20de%20los%20productos"
+      class="whatsapp"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp icons"></i>
+    </a>
     <header>
       <h1 class="site-heading text-center text-faded d-none d-lg-block">
         <span class="site-heading-upper text-primary mb-3"
@@ -14,7 +21,7 @@
         <a
           class="navbar-brand text-uppercase fw-bold d-lg-none"
           href="index.html"
-          >Start Bootstrap</a
+          >De La Granja A Tu Casa</a
         >
         <button
           class="navbar-toggler"
@@ -34,22 +41,22 @@
                 to="/"
                 class="nav-link text-uppercase"
                 active-class="active"
-                >Home</router-link
+                >Hogar</router-link
               >
             </li>
             <li class="nav-item px-lg-4">
               <router-link to="/about" class="nav-link text-uppercase"
-                >About</router-link
+                >Acerca De</router-link
               >
             </li>
             <li class="nav-item px-lg-4">
               <router-link to="/products" class="nav-link text-uppercase"
-                >Products</router-link
+                >Productos</router-link
               >
             </li>
             <li class="nav-item px-lg-4">
               <router-link to="/store" class="nav-link text-uppercase"
-                >Store</router-link
+                >Tienda</router-link
               >
             </li>
           </ul>
@@ -62,8 +69,9 @@
           <div class="product-item-title d-flex">
             <div class="bg-faded p-5 d-flex ms-auto rounded">
               <h2 class="section-heading mb-0">
-                <span class="section-heading-upper">Blended to Perfection</span>
-                <span class="section-heading-lower">Coffees & Teas</span>
+                <span class="section-heading-upper">Ricas Y Frescas</span>
+                <span class="section-heading-lower">Fresas Organicas</span>
+                <p class="section-heading-upper precio">Precio: Lb $3000 & Kg $6000</p>
               </h2>
             </div>
           </div>
@@ -75,12 +83,12 @@
           <div class="product-item-description d-flex me-auto">
             <div class="bg-faded p-5 rounded">
               <p class="mb-0">
-                We take pride in our work, and it shows. Every time you order a
-                beverage from us, we guarantee that it will be an experience
-                worth having. Whether it's our world famous Venezuelan
-                Cappuccino, a refreshing iced herbal tea, or something as simple
-                as a cup of speciality sourced black coffee, you will be coming
-                back for more.
+                La fresa es un fruto de color rojo brillante, suculento y
+                fragante que se obtiene de la planta que recibe su mismo nombre.
+                En Occidente es considerada la "reina de las frutas". Además de
+                poderse comer cruda se puede consumir como compota,
+                mermelada,... Es empleada con fines medicinales ya que posee
+                excelentes propiedades que ayudan a preservar la salud.<br />
               </p>
             </div>
           </div>
@@ -93,10 +101,9 @@
           <div class="product-item-title d-flex">
             <div class="bg-faded p-5 d-flex me-auto rounded">
               <h2 class="section-heading mb-0">
-                <span class="section-heading-upper"
-                  >Delicious Treats, Good Eats</span
-                >
-                <span class="section-heading-lower">Bakery & Kitchen</span>
+                <span class="section-heading-upper">Deliciosas</span>
+                <span class="section-heading-lower">Papa Cultivada</span>
+                <p class="section-heading-upper precio">Precio: Kg $2800</p>
               </h2>
             </div>
           </div>
@@ -108,10 +115,13 @@
           <div class="product-item-description d-flex ms-auto">
             <div class="bg-faded p-5 rounded">
               <p class="mb-0">
-                Our seasonal menu features delicious snacks, baked goods, and
-                even full meals perfect for breakfast or lunchtime. We source
-                our ingredients from local, oragnic farms whenever possible,
-                alongside premium vendors for specialty goods.
+                La papa, es uno de los cultivos más importantes de la región
+                interandina, constituyendo una de las fuentes vegetales más
+                nutritivas, debido a que su contenido en carbohidratos y
+                proteínas es mucho más alto que el que se encuentra en los
+                cereales, raíces y otros tubérculos, motivo por el cual en el
+                Ecuador, hace parte de los productos que constituyen la canasta
+                básica popular.
               </p>
             </div>
           </div>
@@ -124,10 +134,9 @@
           <div class="product-item-title d-flex">
             <div class="bg-faded p-5 d-flex ms-auto rounded">
               <h2 class="section-heading mb-0">
-                <span class="section-heading-upper">From Around the World</span>
-                <span class="section-heading-lower"
-                  >Bulk Speciality Blends</span
-                >
+                <span class="section-heading-upper">natural & Cremosa</span>
+                <span class="section-heading-lower">Leche de vaca</span>
+                <p class="section-heading-upper precio">Precio: 1L $2800</p>
               </h2>
             </div>
           </div>
@@ -139,11 +148,13 @@
           <div class="product-item-description d-flex me-auto">
             <div class="bg-faded p-5 rounded">
               <p class="mb-0">
-                Travelling the world for the very best quality coffee is
-                something take pride in. When you visit us, you'll always find
-                new blends from around the world, mainly from regions in Central
-                and South America. We sell our blends in smaller to large bulk
-                quantities. Please visit us in person for more details.
+                La leche es una de las principales fuentes de calcio de la
+                naturaleza y la única en el bebé. El calcio es imprescindible,
+                entre otras funciones, para la formación y el mantenimiento de
+                los huesos y dientes. Pero además la leche nos aporta elementos
+                muy valiosos como vitaminas, proteínas de alto valor biológico,
+                y otros minerales que hacen de la leche un alimento básico en
+                todas las edades.
               </p>
             </div>
           </div>
@@ -152,8 +163,16 @@
     </section>
     <footer class="footer text-faded text-center py-5">
       <div class="container">
-        <p class="m-0 small">Copyright &copy; Your Website 2021</p>
+        <h6 class="m-0 small">Copyright &copy; De Le Granja A Tú Casa 2021</h6>
       </div>
     </footer>
   </div>
 </template>
+<style>
+.precio {
+  font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol", "Noto Color Emoji";
+    text-transform: initial;
+}
+</style>

@@ -1,5 +1,12 @@
 <template>
   <div>
+    <a
+      href="https://wa.me/573206437419?text=Me%20gustaría%20saber%20el%20precio%20de%20los%20productos"
+      class="whatsapp"
+      target="_blank"
+    >
+      <i class="fab fa-whatsapp icons"></i>
+    </a>
     <header>
       <h1 class="site-heading text-center text-faded d-none d-lg-block">
         <span class="site-heading-upper text-primary mb-3"
@@ -34,22 +41,22 @@
                 to="/"
                 class="nav-link text-uppercase"
                 active-class="active"
-                >Home</router-link
+                >Hogar</router-link
               >
             </li>
             <li class="nav-item px-lg-4">
               <router-link to="/about" class="nav-link text-uppercase"
-                >About</router-link
+                >Acerca De</router-link
               >
             </li>
             <li class="nav-item px-lg-4">
               <router-link to="/products" class="nav-link text-uppercase"
-                >Products</router-link
+                >Productos</router-link
               >
             </li>
             <li class="nav-item px-lg-4">
               <router-link to="/store" class="nav-link text-uppercase"
-                >Store</router-link
+                >Tienda</router-link
               >
             </li>
           </ul>
@@ -60,7 +67,7 @@
       <div class="container">
         <img
           class="img-fluid rounded about-heading-img mb-3 mb-lg-0"
-          src="../assets/img/about.jpg"
+          src="../assets/img/about.png"
           alt="2"
         />
         <div class="about-heading-content">
@@ -69,9 +76,9 @@
               <div class="bg-faded rounded p-5">
                 <h2 class="section-heading mb-4">
                   <span class="section-heading-upper"
-                    >Strong Coffee, Strong Roots</span
+                    >Productos Nutritivos</span
                   >
-                  <span class="section-heading-lower">About Our Cafe</span>
+                  <span class="section-heading-lower">Acerca de Nuestros Productos</span>
                 </h2>
                 <p>
                   Founded in 1987 by the Hernandez brothers, our establishment
@@ -95,7 +102,7 @@
     </section>
     <footer class="footer text-faded text-center py-5">
       <div class="container">
-        <p class="m-0 small">Copyright &copy; Your Website 2021</p>
+        <h6 class="m-0 small">Copyright &copy; De Le Granja A Tú Casa 2021</h6>
       </div>
     </footer>
   </div>
