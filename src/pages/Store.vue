@@ -12,7 +12,7 @@
               <ul class="list-unstyled list-hours mb-5 text-left mx-auto">
                 <li class="list-unstyled-item list-hours-item d-flex">
                   Domingo
-                  <span class="ms-auto war">Cerrado</span>
+                  <span class="ms-auto">Cerrado</span>
                 </li>
                 <li class="list-unstyled-item list-hours-item d-flex">
                   Lunes
@@ -59,7 +59,7 @@
   </div>
 </template>
 <style>
-.war {
-  color: #e50914;
-}
 </style>
+
+
+

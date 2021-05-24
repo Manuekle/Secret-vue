@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <!-- Contenido -->
     <section class="page-section clearfix">
       <div class="container">
@@ -29,11 +28,13 @@
             <p class="mb-3">
               La calidad y seguridad de nuestros productos son nuestra más alta
               prioridad. Por lo tanto, todas las materias primas y los productos
-              cultivados a partir de ellas, están sujetos a estrictos
-              controles de calidad - te lo garantizamos!
+              cultivados a partir de ellas, están sujetos a estrictos controles
+              de calidad - te lo garantizamos!
             </p>
             <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="#!">Visítanos Hoy!</a>
+              <router-link to="/store" class="btn btn-primary btn-xl"
+                >Visítanos Hoy!</router-link
+              >
             </div>
           </div>
         </div>
@@ -63,6 +64,5 @@
     </section>
 
     <!-- fin contenido -->
-    
   </div>
 </template>

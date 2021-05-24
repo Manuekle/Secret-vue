@@ -75,7 +75,8 @@
               <h2 class="section-heading mb-0">
                 <span class="section-heading-upper">natural & Cremosa</span>
                 <span class="section-heading-lower">Leche de vaca</span>
-                <p class="section-heading-upper precio">Precio: 1L $2800</p>
+                <!-- <p class="section-heading-upper precio">Precio: 1L $2800</p> -->
+                <p class="section-heading-upper">PROXIMAMENTE!!!</p>
               </h2>
             </div>
           </div>

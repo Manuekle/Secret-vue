@@ -60,6 +60,11 @@
                 >Tienda</router-link
               >
             </li>
+            <li class="nav-item px-lg-4">
+              <router-link to="/test" class="nav-link text-uppercase"
+                >Contactanos</router-link
+              >
+            </li>
           </ul>
         </div>
       </div>
